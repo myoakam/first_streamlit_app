@@ -45,4 +45,4 @@ streamlit.dataframe(my_data_rows)
 
 #New New Section to display fruityvice api reposonse
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
-if add_my_fruit <> '' then streamlit.write('Thanks for adding ', add_my_fruit)
+if add_my_fruit != '' then streamlit.write('Thanks for adding ', add_my_fruit)
